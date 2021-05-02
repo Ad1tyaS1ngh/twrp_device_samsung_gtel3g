@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-INSTALLED_DTIMAGE_TARGET := $(LOCAL_PATH)/dt.img
+INSTALLED_DTIMAGE_TARGET := $(LOCAL_PATH)/prebuilt/dt.img
 
 ## Overload bootimg generation: Same as the original, + --dt arg
 $(INSTALLED_BOOTIMAGE_TARGET): $(MKBOOTIMG) $(INTERNAL_BOOTIMAGE_FILES) $(INSTALLED_DTIMAGE_TARGET)
