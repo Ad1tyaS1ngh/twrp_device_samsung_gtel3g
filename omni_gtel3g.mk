@@ -23,9 +23,6 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     charger
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/kernel:kernel
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_gtel3g
 PRODUCT_DEVICE := gtel3g
