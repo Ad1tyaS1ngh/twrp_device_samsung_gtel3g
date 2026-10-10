@@ -15,6 +15,9 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := generic
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := SM-T561,SM-T560,gtel3g,gtelwifi,gtel3gxx,gtelwifixx,smt561,smt560
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := SC7730SE
 TARGET_NO_BOOTLOADER := true
