@@ -53,4 +53,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
+TW_HAS_DOWNLOAD_MODE := true
+TW_NO_REBOOT_BOOTLOADER := true
 TW_USE_TOOLBOX := true
