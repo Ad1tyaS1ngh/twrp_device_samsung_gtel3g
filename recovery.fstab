@@ -1,13 +1,13 @@
-/system          ext4     /dev/block/platform/sprd-sdhci.3/by-name/SYSTEM       flags=display=system
-/preload         ext4     /dev/block/platform/sprd-sdhci.3/by-name/HIDDEN       flags=display=preload
-/data            ext4     /dev/block/platform/sprd-sdhci.3/by-name/userdata     flags=display=data
-/cache           ext4     /dev/block/platform/sprd-sdhci.3/by-name/CSC          flags=display=cache
-/efs             ext4     /dev/block/platform/sprd-sdhci.3/by-name/efs          flags=display=efs
-/productinfo     ext4     /dev/block/platform/sprd-sdhci.3/by-name/prodnv       flags=display=productinfo
-/boot            emmc     /dev/block/platform/sprd-sdhci.3/by-name/KERNEL       flags=display=boot
-/recovery        emmc     /dev/block/platform/sprd-sdhci.3/by-name/RECOVERY     flags=display=recovery
-/modemcp         emmc     /dev/block/platform/sprd-sdhci.3/by-name/MODEM        flags=display=modemcp
-/modemdsp        emmc     /dev/block/platform/sprd-sdhci.3/by-name/WDSP         flags=display=modemdsp
-/persdata        ext4     /dev/block/platform/sprd-sdhci.3/by-name/persdata     flags=display=persdata
+/system          ext4     /dev/block/platform/sprd-sdhci.3/by-name/SYSTEM
+/preload         ext4     /dev/block/platform/sprd-sdhci.3/by-name/HIDDEN
+/data            ext4     /dev/block/platform/sprd-sdhci.3/by-name/userdata
+/cache           ext4     /dev/block/platform/sprd-sdhci.3/by-name/CSC
+/efs             ext4     /dev/block/platform/sprd-sdhci.3/by-name/efs
+/productinfo     ext4     /dev/block/platform/sprd-sdhci.3/by-name/prodnv
+/boot            emmc     /dev/block/platform/sprd-sdhci.3/by-name/KERNEL
+/recovery        emmc     /dev/block/platform/sprd-sdhci.3/by-name/RECOVERY
+/modemcp         emmc     /dev/block/platform/sprd-sdhci.3/by-name/MODEM
+/modemdsp        emmc     /dev/block/platform/sprd-sdhci.3/by-name/WDSP
+/persdata        ext4     /dev/block/platform/sprd-sdhci.3/by-name/persdata
 
-/external_sd     vfat     /dev/block/mmcblk1p1                                  flags=display=sdcard
+/external_sd     vfat     /dev/block/mmcblk1p1
