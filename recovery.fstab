@@ -2,11 +2,11 @@
 /preload         ext4     /dev/block/platform/sprd-sdhci.3/by-name/HIDDEN
 /data            ext4     /dev/block/platform/sprd-sdhci.3/by-name/userdata
 /cache           ext4     /dev/block/platform/sprd-sdhci.3/by-name/CSC
-/efs             ext4     /dev/block/platform/sprd-sdhci.3/by-name/efs
+/efs             ext4     /dev/block/platform/sprd-sdhci.3/by-name/efs                                 flags=display="EFS";backup=1
 /productinfo     ext4     /dev/block/platform/sprd-sdhci.3/by-name/prodnv
 /boot            emmc     /dev/block/platform/sprd-sdhci.3/by-name/KERNEL
 /recovery        emmc     /dev/block/platform/sprd-sdhci.3/by-name/RECOVERY
-/modemcp         emmc     /dev/block/platform/sprd-sdhci.3/by-name/MODEM
+/modemcp         emmc     /dev/block/platform/sprd-sdhci.3/by-name/MODEM                               flags=display="Modem";backup=1
 /modemdsp        emmc     /dev/block/platform/sprd-sdhci.3/by-name/WDSP
 /persdata        ext4     /dev/block/platform/sprd-sdhci.3/by-name/persdata
 
