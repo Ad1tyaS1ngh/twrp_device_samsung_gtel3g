@@ -52,6 +52,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
+TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
 TW_EXTRA_LANGUAGES := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_NO_REBOOT_BOOTLOADER := true
